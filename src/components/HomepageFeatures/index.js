@@ -4,31 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Your Projects.',
+    title: 'Unified.',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        mGMT helps you to maintain control and overview over your projects.
+        Many excellent authors.
       </>
     ),
   },
   {
-    title: 'Your Data.',
+    title: 'Patent.',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        mGMT is built to work with your data which is being created when using SharePoint functionalities. 
-        SharePoint Document Libraries and Lists which teams can use to collaborate and keep the information in one place.
-    
+       With outstanding experience in the world of patent law.
       </>
     ),
   },
   {
-    title: 'Your Way.',
+    title: 'Court.',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        A particular taste? PowerBI Reports are highly flexible and customizable. You can see your data your way.
+        Practical advice on how to litigate patents before the UPC.
       </>
     ),
   },

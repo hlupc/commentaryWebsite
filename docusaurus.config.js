@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Paragraphenreiter',
+  title: 'Tilmann / Plassmann - UPC Commentary',
   tagline: '',
-  url: 'http://www.derparagraphenreiter.de/',
+  url: 'http://www.tilmannplassmann.de/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'prgrphnrtr', // Usually your GitHub org/user name.
-  projectName: 'mlaw', // Usually your repo name.
+  projectName: 'mUPCK', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -66,9 +66,9 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: 'mGMT/index',
+            docId: 'Legal Documents/index',
             position: 'left',
-            label: 'mGMT',
+            label: 'Legal Documents',
           },
           {
             to: '/blog', 
@@ -98,16 +98,16 @@ const config = {
             ],
           },
           {
-            title: 'Find Me',
+            title: 'Find Us',
             items: [
 
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/prgrphnrtr',
+                href: 'https://discordapp.com/invite/wtcp',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/prgrphnrtr',
+                href: 'https://twitter.com/wtcp',
               },
             ],
           },
@@ -131,7 +131,7 @@ const config = {
       announcementBar: {
         id: 'support_me',
         content:
-          'This is an announcement!',
+          'The UPC will go live on 1 June 2023!',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: true,
